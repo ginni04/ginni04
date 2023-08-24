@@ -1,0 +1,8 @@
+r = input("você me ama? ").strip().upper()
+if r == "SIM":
+    print("eu também te amo!")
+while r != "SIM":
+    r = input("você me ama? ").strip().upper()
+    if r == "SIM":
+        print("eu também te amo!")
+        break
